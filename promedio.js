@@ -22,3 +22,5 @@ function calcularMediaAritmetica(lista){
     return promedioLista
 }
 
+
+
