@@ -1,0 +1,65 @@
+.capa-rotate {
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+
+.capa-rotate3d {
+  -webkit-transform: rotate3d(0, 90, 0, 180deg);
+  -moz-transform: rotate3d(0, 90, 0, 180deg);
+  -ms-transform: rotate3d(0, 90, 0, 180deg);
+  -o-transform: rotate3d(0, 90, 0, 180deg);
+  transform: rotate3d(0, 90, 0, 180deg);
+}
+
+.capa-scale {
+  -webkit-transform: scale(20);
+  -moz-transform: scale(20);
+  -ms-transform: scale(20);
+  -o-transform: scale(20);
+  transform: scale(20);
+}
+
+.capa-translate {
+  -webkit-transform: translate(50px, 50px);
+  -moz-transform: translate(50px, 50px);
+  -ms-transform: translate(50px, 50px);
+  -o-transform: translate(50px, 50px);
+  transform: translate(50px, 50px);
+}
+
+.capa-translate-x {
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  -o-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.capa-translate-y {
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+
+.capa-translate-3d {
+  -webkit-transform: translate3d(50px, 50px, 50px);
+  -moz-transform: translate3d(50px, 50px, 50px);
+  -ms-transform: translate3d(50px, 50px, 50px);
+  -o-transform: translate3d(50px, 50px, 50px);
+  transform: translate3d(50px, 50px, 50px);
+}
+
+.capa-skew {
+  -webkit-transform: skew(100deg, 100deg);
+  -moz-transform: skew(100deg, 100deg);
+  -ms-transform: skew(100deg, 100deg);
+  -o-transform: skew(100deg, 100deg);
+  transform: skew(100deg, 100deg);
+}
+
+/*# sourceMappingURL=style-transform.css.map */

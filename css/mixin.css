@@ -1,0 +1,211 @@
+.circulo {
+  background-color: #b9e79e;
+  text-align: center;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 600px) {
+  .circulo {
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .circulo {
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 3px;
+  }
+}
+.circulo .form-control {
+  margin: 3px;
+}
+.circulo button {
+  width: 100%;
+  margin: 2px;
+}
+.circulo h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+.circulo .figuraCuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #00eeff;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.circulo .figuraCirculo {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff00;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.circulo .figuratriangulo {
+  width: 0px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 100px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid yellow;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.triangulo {
+  background-color: #b9e79e;
+  text-align: center;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 600px) {
+  .triangulo {
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .triangulo {
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 3px;
+  }
+}
+.triangulo .form-control {
+  margin: 3px;
+}
+.triangulo button {
+  width: 100%;
+  margin: 2px;
+}
+.triangulo h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+.triangulo .figuraCuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #00eeff;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.triangulo .figuraCirculo {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff00;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.triangulo .figuratriangulo {
+  width: 0px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 100px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid yellow;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.cuadrado {
+  background-color: #b9e79e;
+  text-align: center;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 600px) {
+  .cuadrado {
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .cuadrado {
+    width: 100%;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 3px;
+  }
+}
+.cuadrado .form-control {
+  margin: 3px;
+}
+.cuadrado button {
+  width: 100%;
+  margin: 2px;
+}
+.cuadrado h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+.cuadrado .figuraCuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #00eeff;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.cuadrado .figuraCirculo {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff00;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.cuadrado .figuratriangulo {
+  width: 0px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 100px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid yellow;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=mixin.css.map */

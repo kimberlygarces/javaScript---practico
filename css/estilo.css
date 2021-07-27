@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
+header {
+  text-align: center;
+  justify-content: center;
+  font-size: 33px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 25px;
+}
+
+.animation {
+  display: flex;
+}
+
+.MoviemientoImpulasado {
+  height: 100px;
+  width: 100px;
+  background-color: #37fc06;
+  border-radius: 50%;
+  transform: transform 1.5s linear;
+  margin: 15px;
+}
+.MoviemientoImpulasado:hover {
+  transform: scale(1.2);
+  transition: transform 1s linear;
+}
+
+.shadow {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  margin: 15px;
+}
+.shadow .circle {
+  width: 100px;
+  height: 100px;
+  background-color: #1900ff;
+  border-radius: 50%;
+  transform: transform 1.5s linear;
+}
+.shadow .circle:hover {
+  transform: translate(20px, -20px);
+  transition: transform 1s linear;
+}
+
+/*# sourceMappingURL=estilo.css.map */
